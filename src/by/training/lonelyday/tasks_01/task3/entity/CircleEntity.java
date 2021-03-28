@@ -1,21 +1,22 @@
 package by.training.lonelyday.tasks_01.task3.entity;
 
+
 public class CircleEntity {
-    private double raduis;
+    private double radius;
 
-    public CircleEntity(double raduis) {
-        this.raduis = raduis;
+    public CircleEntity(double radius) {
+        this.radius = Math.max(radius, 0);
     }
 
-    public double getRaduis() {
-        return raduis;
+    public double getRadius() {
+        return radius;
     }
 
-    public void setRaduis(double raduis) {
-        this.raduis = raduis;
+    public void setRadius(double radius) {
+        this.radius = Math.max(radius, 0);
     }
 
-    public double getArea() {
-        return Math.PI * getRaduis() * getRaduis();
+    public double calcArea() {
+        return Math.PI * getRadius() * getRadius();
     }
 }

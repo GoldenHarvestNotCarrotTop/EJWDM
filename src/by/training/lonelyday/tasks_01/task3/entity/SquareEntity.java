@@ -5,18 +5,18 @@ public class SquareEntity {
     private double side;
 
     public SquareEntity(double side) {
-        this.side = side;
+        this.side = Math.max(side, 0);
     }
 
     public void setSide(double side) {
-        this.side = side;
+        this.side = Math.max(side, 0);
     }
 
     public double getSide() {
         return side;
     }
 
-    public double getArea() {
+    public double calcArea() {
         return side * side;
     }
 }

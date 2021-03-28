@@ -7,8 +7,10 @@ public class UserAskService {
         double area = -1;
 
         while (area < 0) {
-            Reporter.reportString("Enter square area:");
+            Task3Reporter.reportString("Enter square area:");
             area = DataScanner.enterDouble();
+            if (area < 0)
+                Task3Reporter.reportInputError();
         }
 
         return area;
