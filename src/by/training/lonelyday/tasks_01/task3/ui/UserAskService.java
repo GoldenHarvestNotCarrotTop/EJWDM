@@ -1,6 +1,6 @@
 package by.training.lonelyday.tasks_01.task3.ui;
 
-import by.training.lonelyday.scanner.DataScanner;
+import by.training.lonelyday.until.scanner.DataScanner;
 
 public class UserAskService {
     public static double askSquareArea() {
@@ -8,7 +8,7 @@ public class UserAskService {
 
         while (area < 0) {
             Reporter.reportString("Enter square area:");
-            area = DataScanner.enterDoubleFromConsole();
+            area = DataScanner.enterDouble();
         }
 
         return area;

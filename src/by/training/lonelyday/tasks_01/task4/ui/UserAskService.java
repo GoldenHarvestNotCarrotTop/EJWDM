@@ -1,6 +1,6 @@
 package by.training.lonelyday.tasks_01.task4.ui;
 
-import by.training.lonelyday.scanner.DataScanner;
+import by.training.lonelyday.until.scanner.DataScanner;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +17,7 @@ public class UserAskService {
 
     private static int askInt(int intNumber){
         Reporter.reportString("Enter integer number " + intNumber + ":");
-        return DataScanner.enterIntFromConsole();
+        return DataScanner.enterInt();
     }
 
 }

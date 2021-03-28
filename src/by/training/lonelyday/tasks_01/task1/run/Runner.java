@@ -1,19 +1,19 @@
 package by.training.lonelyday.tasks_01.task1.run;
 
-import by.training.lonelyday.scanner.DataScanner;
-import by.training.lonelyday.tasks_01.task1.reporter.Reporter;
-import by.training.lonelyday.tasks_01.task1.unit.DigitsLogics;
-import by.training.lonelyday.tasks_01.task1.unit.SquareLogics;
+import by.training.lonelyday.until.scanner.DataScanner;
+import by.training.lonelyday.tasks_01.task1.reporter.Task1Reporter;
+import by.training.lonelyday.tasks_01.task1.service.DigitService;
+import by.training.lonelyday.tasks_01.task1.service.SquareService;
 
 public class Runner {
     public static void main(String[] args) {
-        Reporter.greetingsReport();
-        int n = DataScanner.enterIntFromConsole();
+        Task1Reporter.inputNumberReport();
+        int n = DataScanner.enterInt();
 
-        int lastDigit = DigitsLogics.getLastIntDigit(n);
-        int squareLastDigit = SquareLogics.getIntSquareLastDigit(lastDigit);
+        int lastDigit = DigitService.calcLastIntDigit(n);
+        int squareLastDigit = SquareService.calcIntSquareLastDigit(lastDigit);
 
-        Reporter.answerReport(squareLastDigit);
+        Task1Reporter.answerReport(squareLastDigit);
 
 
 

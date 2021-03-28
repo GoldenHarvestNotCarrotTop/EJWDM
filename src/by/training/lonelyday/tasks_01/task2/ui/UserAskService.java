@@ -1,6 +1,6 @@
 package by.training.lonelyday.tasks_01.task2.ui;
 
-import by.training.lonelyday.scanner.DataScanner;
+import by.training.lonelyday.until.scanner.DataScanner;
 
 public class UserAskService {
 
@@ -10,7 +10,7 @@ public class UserAskService {
 
         while (year <= 0) {
             Reporter.reportString("Enter a year:");
-            year = DataScanner.enterIntFromConsole();
+            year = DataScanner.enterInt();
         }
 
         return year;
@@ -22,7 +22,7 @@ public class UserAskService {
 
         while(!(1 <= month && month <= 12)){
             Reporter.reportString("Enter month number:");
-            month = DataScanner.enterIntFromConsole();
+            month = DataScanner.enterInt();
         }
 
         return month;
