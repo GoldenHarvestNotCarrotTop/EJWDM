@@ -1,7 +1,7 @@
 package by.training.lonelyday.tasks_01.task1.service;
 
 public class SquareService {
-    private static int calcIntSquare(int n){
+    public static int calcIntSquare(int n){
         return n*n;
     }
 
