@@ -6,7 +6,7 @@ public class UserAskService {
 
 
     public static double askRadius() {
-        Reporter.reportString("Enter radius:");
+        Task9Reporter.reportString("Enter radius:");
         return DataScanner.enterDouble();
     }
 }

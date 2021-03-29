@@ -12,11 +12,11 @@ public class CircleEntity {
         return r;
     }
 
-    public double getArea(){
+    public double calcArea(){
         return Math.PI*getR()*getR();
     }
 
-    public double getLength(){
+    public double calcLength(){
         return 2*Math.PI*getR();
     }
 

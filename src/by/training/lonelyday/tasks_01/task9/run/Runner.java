@@ -1,7 +1,7 @@
 package by.training.lonelyday.tasks_01.task9.run;
 
 import by.training.lonelyday.tasks_01.task9.entity.CircleEntity;
-import by.training.lonelyday.tasks_01.task9.ui.Reporter;
+import by.training.lonelyday.tasks_01.task9.ui.Task9Reporter;
 import by.training.lonelyday.tasks_01.task9.ui.UserAskService;
 
 public class Runner {
@@ -10,7 +10,7 @@ public class Runner {
 
         CircleEntity circle = new CircleEntity(r);
 
-        Reporter.reportLength(circle.getLength());
-        Reporter.reportArea(circle.getArea());
+        Task9Reporter.reportLength(circle.calcLength());
+        Task9Reporter.reportArea(circle.calcArea());
     }
 }
