@@ -11,4 +11,8 @@ public class Task3Reporter extends BaseReporter {
     }
 
 
+    public static void reportAreaRatio(double areaRatio) {
+        reportString("Area ratio: ");
+        reportString(String.valueOf(areaRatio));
+    }
 }
