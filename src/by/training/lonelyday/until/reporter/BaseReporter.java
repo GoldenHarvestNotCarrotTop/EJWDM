@@ -8,4 +8,15 @@ public class BaseReporter {
     public static void reportString(String s) {
         System.out.println(s);
     }
+
+
+
+    protected static String padRight(String s, int n) {
+        return String.format("%-" + n + "s", s);
+    }
+
+    protected static String padLeft(String s, int n) {
+        return String.format("%" + n + "s", s);
+    }
+
 }

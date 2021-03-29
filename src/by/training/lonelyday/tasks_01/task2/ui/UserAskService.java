@@ -1,10 +1,7 @@
 package by.training.lonelyday.tasks_01.task2.ui;
 
-import by.training.lonelyday.tasks_01.task10.ui.Reporter;
 import by.training.lonelyday.tasks_01.task2.enums.MonthEnum;
 import by.training.lonelyday.until.scanner.DataScanner;
-
-import java.time.Month;
 
 public class UserAskService {
 
