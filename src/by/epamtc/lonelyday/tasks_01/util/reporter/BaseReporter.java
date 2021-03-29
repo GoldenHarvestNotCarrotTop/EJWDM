@@ -1,4 +1,4 @@
-package by.epamtc.lonelyday.util.reporter;
+package by.epamtc.lonelyday.tasks_01.util.reporter;
 
 public class BaseReporter {
     public static void reportInputError() {

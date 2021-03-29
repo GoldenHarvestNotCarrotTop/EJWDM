@@ -1,6 +1,6 @@
 package by.epamtc.lonelyday.tasks_01.task8.ui;
 
-import by.epamtc.lonelyday.util.reporter.BaseReporter;
+import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 
 public class Task8Reporter extends BaseReporter {
 

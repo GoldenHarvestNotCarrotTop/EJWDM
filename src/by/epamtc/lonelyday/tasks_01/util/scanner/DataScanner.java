@@ -1,6 +1,6 @@
-package by.epamtc.lonelyday.util.scanner;
+package by.epamtc.lonelyday.tasks_01.util.scanner;
 
-import by.epamtc.lonelyday.util.reporter.BaseReporter;
+import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 
 import java.util.Scanner;
 

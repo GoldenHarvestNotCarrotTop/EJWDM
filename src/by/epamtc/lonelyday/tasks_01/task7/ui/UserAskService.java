@@ -1,7 +1,7 @@
 package by.epamtc.lonelyday.tasks_01.task7.ui;
 
 import by.epamtc.lonelyday.tasks_01.task7.entity.PointEntity;
-import by.epamtc.lonelyday.util.scanner.DataScanner;
+import by.epamtc.lonelyday.tasks_01.util.scanner.DataScanner;
 
 public class UserAskService {
 
