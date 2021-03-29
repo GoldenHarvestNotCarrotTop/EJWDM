@@ -3,7 +3,7 @@ package by.epamtc.lonelyday.tasks_01.task7.run;
 import by.epamtc.lonelyday.tasks_01.task7.service.DistanceService;
 import by.epamtc.lonelyday.tasks_01.task7.ui.UserAskService;
 import by.epamtc.lonelyday.tasks_01.task7.entity.PointEntity;
-import by.epamtc.lonelyday.tasks_01.task7.ui.Task7Reporter;
+import by.epamtc.lonelyday.tasks_01.task7.ui.Reporter;
 
 public class Runner {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class Runner {
         PointEntity b = UserAskService.askPoint("B");
 
         PointEntity nearestToOrigin =  DistanceService.calcNearestPointToOrigin(a,b);
-        Task7Reporter.reportNearestPoint(nearestToOrigin);
+        Reporter.reportNearestPoint(nearestToOrigin);
 
     }
 }

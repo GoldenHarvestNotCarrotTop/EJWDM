@@ -1,6 +1,6 @@
 package by.epamtc.lonelyday.tasks_01.task10.run;
 
-import by.epamtc.lonelyday.tasks_01.task10.ui.Task10Reporter;
+import by.epamtc.lonelyday.tasks_01.task10.ui.Reporter;
 import by.epamtc.lonelyday.tasks_01.task10.entity.PointEntity;
 import by.epamtc.lonelyday.tasks_01.task10.entity.SegmentEntity;
 import by.epamtc.lonelyday.tasks_01.task10.service.FunctionIteratorService;
@@ -16,7 +16,7 @@ public class Runner {
 
         List<PointEntity> pointEntityList = FunctionIteratorService.iterate(segment,step);
 
-        Task10Reporter.reportResult(pointEntityList);
+        Reporter.reportResultList(pointEntityList);
 
 
     }

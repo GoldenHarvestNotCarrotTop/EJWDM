@@ -10,10 +10,10 @@ public class UserAskService {
         int year = 0;
 
         while (year <= 0) {
-            Task2Reporter.reportString("Enter a year:");
+            Reporter.reportString("Enter a year:");
             year = DataScanner.enterInt();
             if (year <= 0)
-                Task2Reporter.reportInputError();
+                Reporter.reportInputError();
         }
 
         return year;
@@ -24,10 +24,10 @@ public class UserAskService {
         int monthNumber = 0;
 
         while (!(1 <= monthNumber && monthNumber <= 12)) {
-            Task2Reporter.reportString("Enter month number:");
+            Reporter.reportString("Enter month number:");
             monthNumber = DataScanner.enterInt();
             if (!(1 <= monthNumber && monthNumber <= 12))
-                Task2Reporter.reportInputError();
+                Reporter.reportInputError();
         }
         @SuppressWarnings("UnnecessaryLocalVariable")
         MonthEnum month = switch (monthNumber) {

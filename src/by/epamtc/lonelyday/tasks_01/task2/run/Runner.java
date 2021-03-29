@@ -1,7 +1,7 @@
 package by.epamtc.lonelyday.tasks_01.task2.run;
 
 import by.epamtc.lonelyday.tasks_01.task2.service.CalendarService;
-import by.epamtc.lonelyday.tasks_01.task2.ui.Task2Reporter;
+import by.epamtc.lonelyday.tasks_01.task2.ui.Reporter;
 import by.epamtc.lonelyday.tasks_01.task2.ui.UserAskService;
 import by.epamtc.lonelyday.tasks_01.task2.enums.MonthEnum;
 
@@ -12,6 +12,6 @@ public class Runner {
 
         int daysNumber = CalendarService.calcDaysNumber(year, month);
 
-        Task2Reporter.reportDaysNumber(daysNumber);
+        Reporter.reportDaysNumber(daysNumber);
     }
 }

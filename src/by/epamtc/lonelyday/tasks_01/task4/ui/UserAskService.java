@@ -16,7 +16,7 @@ public class UserAskService {
     }
 
     private static int askInt(int intNumber){
-        Task4Reporter.reportString("Enter integer number " + intNumber + ":");
+        Reporter.reportString("Enter integer number " + intNumber + ":");
         return DataScanner.enterInt();
     }
 

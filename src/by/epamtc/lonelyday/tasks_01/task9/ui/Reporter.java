@@ -2,7 +2,7 @@ package by.epamtc.lonelyday.tasks_01.task9.ui;
 
 import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 
-public class Task9Reporter extends BaseReporter {
+public class Reporter extends BaseReporter {
 
 
 

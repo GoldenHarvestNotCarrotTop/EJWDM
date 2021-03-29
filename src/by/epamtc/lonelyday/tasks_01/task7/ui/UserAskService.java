@@ -6,9 +6,9 @@ import by.epamtc.lonelyday.tasks_01.util.scanner.DataScanner;
 public class UserAskService {
 
     public static PointEntity askPoint(String pointName) {
-        Task7Reporter.reportString("Enter Point(" + pointName + ") x:");
+        Reporter.reportString("Enter Point(" + pointName + ") x:");
         double x = DataScanner.enterDouble();
-        Task7Reporter.reportString("Enter Point(" + pointName + ") y:");
+        Reporter.reportString("Enter Point(" + pointName + ") y:");
         double y = DataScanner.enterDouble();
         return new PointEntity(x, y, pointName);
 

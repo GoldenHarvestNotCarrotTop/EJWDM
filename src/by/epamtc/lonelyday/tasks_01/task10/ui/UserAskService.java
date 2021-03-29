@@ -17,7 +17,7 @@ public class UserAskService {
             BaseReporter.reportString("Enter right border");
             r = DataScanner.enterDouble();
             if (r < l)
-                Task10Reporter.reportInputError();
+                Reporter.reportInputError();
         }
 
         return new SegmentEntity(l, r);

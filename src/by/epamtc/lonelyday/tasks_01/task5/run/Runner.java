@@ -1,7 +1,7 @@
 package by.epamtc.lonelyday.tasks_01.task5.run;
 
 import by.epamtc.lonelyday.tasks_01.task5.service.IntService;
-import by.epamtc.lonelyday.tasks_01.task5.ui.Task5Reporter;
+import by.epamtc.lonelyday.tasks_01.task5.ui.Reporter;
 import by.epamtc.lonelyday.tasks_01.task5.ui.UserAskService;
 
 public class Runner {
@@ -10,7 +10,7 @@ public class Runner {
 
         boolean perfectness = IntService.isPerfect(n);
 
-        Task5Reporter.reportBool(perfectness);
+        Reporter.reportBool(perfectness);
 
     }
 }

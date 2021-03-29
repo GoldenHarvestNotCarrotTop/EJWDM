@@ -2,7 +2,7 @@ package by.epamtc.lonelyday.tasks_01.task6.ui;
 
 import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 
-public class Task6Reporter extends BaseReporter {
+public class Reporter extends BaseReporter {
 
     public static void reportHours(int hours) {
         reportString("Number of full hours:");
