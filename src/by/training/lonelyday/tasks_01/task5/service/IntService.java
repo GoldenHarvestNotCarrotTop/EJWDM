@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IntService {
-    public static List<Integer> getDivisorsList(int n) {
+    public static List<Integer> calcDivisorsList(int n) {
         List<Integer> divisors = new ArrayList<>();
         for (int div = 1; div < ((int) Math.sqrt(n) + 1); div++) {
             if (n % div == 0) {
@@ -22,7 +22,7 @@ public class IntService {
     public static boolean isPerfect(int n) {
         if (n <= 0)
             return false;
-        List<Integer> divisors = IntService.getDivisorsList(n);
+        List<Integer> divisors = IntService.calcDivisorsList(n);
 
         int sum = ListService.sumListInt(divisors);
         sum -= n;
