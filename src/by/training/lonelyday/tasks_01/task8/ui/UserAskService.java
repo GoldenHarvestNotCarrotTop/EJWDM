@@ -6,7 +6,7 @@ public class UserAskService {
 
 
     public static double askX() {
-        Reporter.reportString("Enter x:");
+        Task8Reporter.reportString("Enter x:");
         return DataScanner.enterDouble();
     }
 }
