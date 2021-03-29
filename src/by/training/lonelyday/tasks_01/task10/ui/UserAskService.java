@@ -1,7 +1,7 @@
 package by.training.lonelyday.tasks_01.task10.ui;
 
-import by.training.lonelyday.until.scanner.DataScanner;
 import by.training.lonelyday.tasks_01.task10.entity.SegmentEntity;
+import by.training.lonelyday.until.scanner.DataScanner;
 
 import static by.training.lonelyday.until.reporter.BaseReporter.reportString;
 

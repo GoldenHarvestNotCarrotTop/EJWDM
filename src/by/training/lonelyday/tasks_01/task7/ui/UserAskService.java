@@ -1,7 +1,7 @@
 package by.training.lonelyday.tasks_01.task7.ui;
 
-import by.training.lonelyday.until.scanner.DataScanner;
 import by.training.lonelyday.tasks_01.task7.entity.PointEntity;
+import by.training.lonelyday.until.scanner.DataScanner;
 
 public class UserAskService {
 

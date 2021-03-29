@@ -1,7 +1,6 @@
 package by.training.lonelyday.tasks_01.task7.service;
 
 import by.training.lonelyday.tasks_01.task7.entity.PointEntity;
-import by.training.lonelyday.tasks_01.task7.ui.Task7Reporter;
 
 public class DistanceService {
     public static double calcDistanceBetween2Points(PointEntity a, PointEntity b) {
