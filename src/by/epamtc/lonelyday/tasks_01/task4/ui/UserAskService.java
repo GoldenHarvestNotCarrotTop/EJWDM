@@ -1,6 +1,6 @@
 package by.epamtc.lonelyday.tasks_01.task4.ui;
 
-import by.epamtc.lonelyday.until.scanner.DataScanner;
+import by.epamtc.lonelyday.util.scanner.DataScanner;
 
 import java.util.ArrayList;
 import java.util.List;

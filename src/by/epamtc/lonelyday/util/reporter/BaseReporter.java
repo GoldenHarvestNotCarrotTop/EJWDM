@@ -1,4 +1,4 @@
-package by.epamtc.lonelyday.until.reporter;
+package by.epamtc.lonelyday.util.reporter;
 
 public class BaseReporter {
     public static void reportInputError() {

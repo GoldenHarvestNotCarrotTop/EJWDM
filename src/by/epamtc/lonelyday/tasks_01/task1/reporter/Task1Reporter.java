@@ -1,6 +1,6 @@
 package by.epamtc.lonelyday.tasks_01.task1.reporter;
 
-import by.epamtc.lonelyday.until.reporter.BaseReporter;
+import by.epamtc.lonelyday.util.reporter.BaseReporter;
 
 public class Task1Reporter extends BaseReporter {
     public static void inputNumberReport(){

@@ -1,7 +1,7 @@
 package by.epamtc.lonelyday.tasks_01.task2.ui;
 
 import by.epamtc.lonelyday.tasks_01.task2.enums.MonthEnum;
-import by.epamtc.lonelyday.until.scanner.DataScanner;
+import by.epamtc.lonelyday.util.scanner.DataScanner;
 
 public class UserAskService {
 

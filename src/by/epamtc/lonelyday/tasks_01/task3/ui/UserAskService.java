@@ -1,6 +1,6 @@
 package by.epamtc.lonelyday.tasks_01.task3.ui;
 
-import by.epamtc.lonelyday.until.scanner.DataScanner;
+import by.epamtc.lonelyday.util.scanner.DataScanner;
 
 public class UserAskService {
     public static double askSquareArea() {
