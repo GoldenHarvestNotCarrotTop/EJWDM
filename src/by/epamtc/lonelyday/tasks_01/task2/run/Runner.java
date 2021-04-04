@@ -1,9 +1,9 @@
 package by.epamtc.lonelyday.tasks_01.task2.run;
 
+import by.epamtc.lonelyday.tasks_01.task2.enums.MonthEnum;
 import by.epamtc.lonelyday.tasks_01.task2.service.CalendarService;
 import by.epamtc.lonelyday.tasks_01.task2.ui.Reporter;
 import by.epamtc.lonelyday.tasks_01.task2.ui.UserAskService;
-import by.epamtc.lonelyday.tasks_01.task2.enums.MonthEnum;
 
 public class Runner {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package by.epamtc.lonelyday.tasks_01.task10.ui;
 
-import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 import by.epamtc.lonelyday.tasks_01.task10.entity.PointEntity;
+import by.epamtc.lonelyday.tasks_01.util.reporter.BaseReporter;
 
 import java.util.List;
 

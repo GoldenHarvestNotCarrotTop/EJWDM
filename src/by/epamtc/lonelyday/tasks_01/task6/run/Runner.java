@@ -1,8 +1,8 @@
 package by.epamtc.lonelyday.tasks_01.task6.run;
 
 import by.epamtc.lonelyday.tasks_01.task6.service.TimeService;
-import by.epamtc.lonelyday.tasks_01.task6.ui.UserAskService;
 import by.epamtc.lonelyday.tasks_01.task6.ui.Reporter;
+import by.epamtc.lonelyday.tasks_01.task6.ui.UserAskService;
 
 public class Runner {
     public static void main(String[] args) {

@@ -4,7 +4,6 @@ import by.epamtc.lonelyday.tasks_01.task1.service.DigitService;
 import by.epamtc.lonelyday.tasks_01.task1.service.SquareService;
 import by.epamtc.lonelyday.tasks_01.task1.ui.Reporter;
 import by.epamtc.lonelyday.tasks_01.task1.ui.UserAskService;
-import by.epamtc.lonelyday.tasks_01.util.scanner.DataScanner;
 
 public class Runner {
     public static void main(String[] args) {
